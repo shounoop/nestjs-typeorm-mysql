@@ -1,6 +1,6 @@
 # NestJS-MySQL-TypeORM Project
 
-- The project is designed to provide a basic CRUD (Create, Read, Update, Delete) API for managing users, with endpoints for retrieving user data, creating new users, updating existing users, and deleting users.
+- This is a sample project built using NestJS, a popular Node.js framework, to interact with a MySQL database using the TypeORM ORM library. The project is designed to provide a basic CRUD (Create, Read, Update, Delete) API for managing users, with endpoints for retrieving user data, creating new users, updating existing users, and deleting users.
 
 - The project uses NestJS's modular architecture to separate concerns and maintain code organization. The app module is responsible for bootstrapping the application, while the user module handles user-related functionality. The controller and service files within the user module implement the CRUD operations, while the entity files define the database schema using TypeORM's decorators.
 
