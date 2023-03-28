@@ -26,10 +26,10 @@ export class User {
   @Column({ nullable: true })
   authStrategy: string;
 
-  @OneToOne(() => Profile)
+  @OneToOne(() => Profile, { eager: true })
   @JoinColumn()
   profile: Profile;
 
-  @OneToMany(() => Post, (post) => post.user)
-  posts: Post[]
+  @OneToMany(() => Post, (post) => post.user, { eager: true })
+  posts: Post[];
 }
